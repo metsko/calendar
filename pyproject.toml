@@ -1,0 +1,18 @@
+[project]
+name = "calendar"
+version = "0.1.0"
+description = "Tool to export calendar to .ics file"
+authors = [
+    {name = "maarten.degroodt@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "icalendar (>=6.3.1,<7.0.0)",
+    "pytz (>=2025.2,<2026.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
